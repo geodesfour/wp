@@ -1,0 +1,230 @@
+/*
+Theme Name: Basic
+Theme URI: 
+Author: GD
+Author URI: 
+Description: Basic, Thème pour les Collectivités
+Version: 1.1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: citeo
+Tags: Collectivités locales, Acteurs public
+*/
+body {
+	background-size: 100% auto !important;
+	background-attachment: fixed !important;
+}
+
+.search-engine .input-group {
+	padding-bottom: 0;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+
+.sticky {
+	display: block;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/* @see: http://codex.wordpress.org/Content_Width */
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+.boxed > .layout-container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+.boxed > .layout-container .container-fluid {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.section-banner + .container > .boxed {
+	margin-top: 0;
+}
+
+.section-banner .logo-retina,
+.layout-navigation .logo-retina {
+	display: none;
+}
+.section-banner .logo-normal,
+.layout-navigation .logo-normal {
+	display: block;
+}
+.layout-navigation img {
+	height: 36px;
+	margin-top: -3px;
+}
+.section-breadcrumb {
+	border-bottom: 1px solid #eee;
+	padding: 10px 0;
+	margin-bottom: 28px;
+	background: #F7F7F7;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) { 
+
+	.section-banner .logo-retina,
+	.layout-navigation .logo-retina {
+		display: block;
+	}
+
+	.section-banner .logo-normal,
+	.layout-navigation .logo-normal {
+		display: none;
+	}
+}
+
+
+.well:after,
+.well:before {
+	content: " ";
+	display: table;
+}
+
+.well:after {
+	clear: both;
+}
+
+.section-banner {
+	background-size: cover;
+	background-position: center;
+}
+
+.infowindow {
+	max-width: 540px;
+}
+@media screen and (max-width: 799px) {
+	.infowindow {
+		max-width: 320px;
+	}
+}
+@media screen and (max-width: 529px) {
+	.infowindow {
+		max-width: 180px;
+	}
+}
+
+
+
+
+/*
+.layout-navigation .navbar-nav>li>a {
+    padding: 18px 16px;
+}
+.section-contentinfo .logo {
+    display: inline-block;
+    float: none;
+    padding-top: 2px;
+    padding-left: 6px
+}
+.section-contentinfo .logo svg {
+    width: 80px;
+    height: 17px
+}
+.section-contentinfo .logo svg path, .section-contentinfo .logo svg polygon {
+    fill: #fff
+}
+.section-contentinfo .logo>a {
+    display: block;
+    padding: 6px 6px 2px 5px;
+    line-height: 1
+}
+.section-contentinfo .logo>a:hover {
+    background: rgba(0, 0, 0, .1)
+}
+.section-alert .alert {
+	margin-bottom: 0;
+}
+.section-banner .logo img {
+	height: 80px;
+}
+.page-intro {
+	font-size: 20px;
+}
+.article-info {
+	border: none;
+}
+.article-info .article-date {
+	float: left;
+	margin-bottom: 0;
+}
+.article-info .article-meta {
+	float: right;
+	margin-bottom: 0;
+}
+.page-header .btn > .caret {
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.page-header .btn.active > .caret{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+*/

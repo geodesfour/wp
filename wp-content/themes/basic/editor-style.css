@@ -1,0 +1,8 @@
+@import url( 'style.css' );
+@import url( 'assets/css/beaver.min.css' );
+@import url( 'assets/css/theme.css' );
+
+body#tinymce.wp-editor { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 10px; 
+}

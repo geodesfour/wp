@@ -1,0 +1,26 @@
+/*
+Theme Name:     Demo
+Theme URI:      
+Description:    Démo Basica
+Author:         Inovagora
+Author URI:     http://gd.net
+Template:       basic
+Version:        1.0.0
+*/
+
+.section-headinfo, .section-contentinfo {
+	background: #23282D;
+}
+.section-banner .logo {
+	margin-top: 45px;
+}
+.panel-types-themes {
+  border-color: #ddd;
+}
+.panel-types-themes > .panel-heading {
+  padding: 10px 15px;
+  height: 45px;
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
